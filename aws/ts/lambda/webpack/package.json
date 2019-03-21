@@ -1,0 +1,21 @@
+{
+  "description": "Setup for AWS Lambda using webpack",
+  "scripts": {
+    "compile:prod": "webpack --config ./webpack.prod.js",
+    "compile:dev": "webpack --config ./webpack.dev.js"
+  },
+  "author": "William Hallatt",
+  "license": "MIT",
+  "dependencies": {
+    "aws-sdk": "^2.425.0"
+  },
+  "devDependencies": {
+    "@types/aws-lambda": "^8.10.23",
+    "@types/node": "^8.10.44",
+    "ts-loader": "^5.3.3",
+    "typescript": "^3.3.4000",
+    "webpack": "^4.29.6",
+    "webpack-cli": "^3.3.0",
+    "webpack-merge": "^4.2.1"
+  }
+}

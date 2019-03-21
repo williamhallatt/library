@@ -1,27 +1,12 @@
 {
-  "name": "aws-sdk-utilities",
-  "version": "1.0.0",
-  "description": "Snippets and helper functions utilising the AWS JavaScript SDK",
+  "description": "Snippets, examples and helper functions utilising the AWS JavaScript SDK",
   "scripts": {
-    "compile": "tsc -p tsconfig.json",
-    "compile:lambda:prod": "webpack --config ./webpack.prod.js",
-    "compile:lambda:dev": "webpack --config ./webpack.dev.js",
-    "lint": "tslint --fix --project ./tsconfig.json",
-    "lint:lambda": "tslint --fix --project ./tsconfig.lambda.json"
+    "lint": "tslint --fix --project ./tsconfig.lint.json"
   },
   "author": "William Hallatt",
   "license": "MIT",
-  "dependencies": {
-    "aws-sdk": "^2.425.0"
-  },
   "devDependencies": {
-    "@types/aws-lambda": "^8.10.23",
-    "@types/node": "^8.10.44",
-    "ts-loader": "^5.3.3",
     "tslint": "^5.14.0",
-    "typescript": "^3.3.4000",
-    "webpack": "^4.29.6",
-    "webpack-cli": "^3.3.0",
-    "webpack-merge": "^4.2.1"
+    "typescript": "^3.3.4000"
   }
 }
